@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Top Secret Spy Mission</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: lightgray;
+  text-align: center;">
+
+
+  <h1 style="color: darkred;
+  text-shadow: 3px 3px 5px gray;">🕵️ TOP SECRET!</h1>
+  <h2>Agent 007 Mission File</h2>
+
+  <div class="mission" style=" width: 300px;
+  height: 110px;
+  padding: 20px;
+  margin: 25px auto;
+  background-color: lightyellow;
+  box-shadow: 5px 5px 10px gray;">
+    <h2>🔐 Mission: Code Breaker</h2>
+    <p>Find the hidden password!</p>
+  </div>
+
+  <div class="clue" style=" width: 300px;
+  height: 110px;
+  padding: 20px;
+  margin: 25px auto;
+  background-color: lightblue;
+  box-shadow: 5px 5px 10px gray;">
+    <h2>🔎 Secret Clue</h2>
+    <p>The password is hidden in the library.</p>
+  </div>
+
+  <div class="warning" style=" width: 300px;
+  height: 110px;
+  padding: 20px;
+  margin: 25px auto;
+  background-color: lightpink;
+  box-shadow: 5px 5px 10px gray;">
+    <h2>⚠️ Classified!</h2>
+    <p>Only secret agents can read this file.</p>
+  </div>
+
+</body>
+</html>
