@@ -1,0 +1,38 @@
+body {
+    background:linear-gradient(lightblue,lavender);
+    text-align:center;
+    min-height:100vh;
+}
+
+h1 {
+    color:darkblue;
+}
+
+.launchpad {
+    width: 280px;
+    padding: 280px;
+    margin: 40px auto;
+    background-color: lightyellow;
+    border: 4px solid orange;
+    border-radius: 25px;
+    transition: 1s;
+}
+
+.launchpad img {
+    width: 180px;
+    height: 250px;
+    object-fit: contain;
+    transition: 1s;
+}
+
+.launchpad:hover {
+    background-color:lightcoral;
+}
+
+.launchpad:hover img {
+    transform: scale(1.2); rotate:(15deg);
+}
+
+h2 {
+    color:darkred;
+}
