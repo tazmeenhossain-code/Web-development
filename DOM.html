@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to DOM</title>
+    <style>
+        .alert{
+            background-color: aqua;
+            color: rgb(2, 2, 56);
+            margin: 10px;
+            padding: 10px;
+        }
+        .tip{
+            background-color: cornflowerblue;
+            color: mistyrose;
+            margin: 10px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="heading">Welcome</h1>
+    <p class="intro">Hello</p>
+    <p>How are you?</p>
+    <script>
+        //Step 1:Create a div and add it to the end of the body
+        let div=document.createElement('div')
+        div.className="alert";
+        div.innerHTML="<p>Congrats!You have created a div.</p>"
+        document.body.append(div);
+
+        //Step 2:Finding the heading by id and changing it
+        let heading=document.getElementById("heading");
+        heading.innerHTML='&1234567#';
+
+        //Step 3:Create an h2 with class 'tip' and add it to the start of the body
+        let tip=document.createElement('h2');
+        tip.className="tip";
+        tip.innerHTML="Tip of the day"
+        document.body.prepend(tip);
+    </script>
+</body>
+</html>
